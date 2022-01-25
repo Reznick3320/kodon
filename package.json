@@ -1,0 +1,28 @@
+{
+  "name": "kodonapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./frontend/src/index.js --output-path ./frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./frontend/src/index.js --output-path ./frontend/static/frontend/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-types": "^0.1.0"
+  }
+}
